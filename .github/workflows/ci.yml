@@ -47,5 +47,6 @@ jobs:
             cache: 'npm'
         
         - run: npm run build 
-
+        name : "Testing App"
+        run: echo "Testing App"
 
